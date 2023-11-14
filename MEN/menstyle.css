@@ -1,0 +1,30 @@
+h1 {
+ 	font-size: 50px;
+ 	color: white;
+}
+
+h2 {
+   font-size: 25px;
+   font: italic;
+}
+
+ body{
+   background-color: cyan;
+   color: black;
+   font-size: 21px;
+ }
+
+ P {
+   color: #FF3300;
+}  
+
+
+ .box {
+   background-image: url(C:\Users\CHI\Desktop\Project 1\Resource\Images/images.png);
+   margin: 100px;
+ 	padding: 100px;
+   background-color: pink;
+   font-size: 21px;
+}
+
+   

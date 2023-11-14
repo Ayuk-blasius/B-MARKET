@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body bgcolor="cyan">
+  <div class="header">
+    <a href="index.html">Home</a>
+    <a href="signup.html">Sign Up</a>
+    <a href="login.html">Login</a>
+    <a href="about us.html">About Us</a>
+    <a href="contact us.html">Contact Us</a>
+    <a href="blog.html">Blog</a>
+  </div>   
+      
+  <div class="content">
+    <marquee id="top" behaviour="" direction="left" align="center"><h1><font color="black" face="Arial black">WELCOME TO B-MARKET</marquee><h2 align="center"><font color="red"><i>SHOP FOR THE MODERN GENERATION</font></i></font></h2>
+  </div>
+  <div class="signup-form">
+      <br>
+   <form  action="#" method="post">
+    <fieldset align="center" rows="5" cols="30 required">
+        <legend align="center"><h2>SIGN UP</h2></legend>
+        <label for="Password"><b>First name:</label></b>
+    <input type="text"><br>
+        <label for="Email address"><b>Email address:</label></b>
+    <input type="email"><br>
+        <label for="Telephone"><b>Telephone:</label></b>
+    <input type="number"></br>
+    <label for="Gender"><b>Gender:</b></label>
+    <input type="checkbox" name="gender"><b>Male</b><input type="checkbox" name="gender"><b>Female</b><input type="checkbox" name="gender"><b>Others</b><br>
+    <label for="DoB"><b>Date of birth:</b></label>
+    <input type="date"><br>
+    <label for="Password"><B>Create password:</B></label>
+    <input type="password"></br>
+    <input type="submit" value="submit">
+  </b></label></fieldset></form>
+
+  <!-- link between webpages-->
+<a href="MEN/MEN.html" target="blank"><button onclick="GOTOMEN()">GO TO MEN</a></br>
+<a href="WOMEN/WOMEN.html" target="blank"><button onclick="GOTOWOMEN()">GO TO WOMEN</a></br>
+<a href="ELECTRONICS/ELECTRONICS.html" target="blank"><button onclick="GOTOELECTRONICS()">GO TO ELECTRONICS</a></br>
+<a href="ELECTRONICS/KIDS/KIDS.html" target="blank"><button onclick="GOTOKIDS()">GO TO KIDS</a></br>
+<a name="top"></a>
+<button onclick="goToTop()">Go to Top</button>
+    <script>
+      function goToTop() {
+        window.location.href = "#top";
+       function goToMEN() {
+        window.location.href = "#men";
+      function goToWOMEN() {
+        window.location.href = "#women";
+      function goToELECTRONICS() {
+        window.location.href = "#electronics";
+      function goToKIDS() {
+        window.location.href = "#kids";
+         function goTosignup() {
+        window.location.href = "#signup";
+          function goTologin() {
+        window.location.href = "#login";
+      }
+      }
+    </script>
+  </div>
+</body>
+</html>
